@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+#img-topo {
+    width: 100%;
+    background-color: #0191A4;
+}
+
+nav {
+    background-color: #0191A4;
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    color: #FFF;
+    font: 1.2em 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.menu:link,
+.menu:visited {
+    /*quando abro a pagina e visito e volto*/
+    margin-right: 30px;
+    color: #FFF;
+}
+
+.menu:hover,
+.menu:active {
+    /*quando passo o mouse sobre e apertar*/
+    color: #3F51B5;
+}
+
+main,
+#pag-beneficios,
+#pag-modalidades,
+#pag-treinos,
+#pag-agendamentos {
+    padding: 70px;
+}
+
+main {
+    background-color: #FFF;
+}
+
+h1,
+h3 {
+    color: #3F51B5;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #757575;
+    font: 1.2em 'Poppins', sans-serif;
+    text-align: justify;
+    font-weight: 300;
+    line-height: 1.3em;
+}
+
+#pag-beneficios {
+    background-color: #0191A4;
+}
+
+#pag-beneficios h2,
+#pag-beneficios p {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #3F51B5;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+ul {
+    margin-left: 70px;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+li {
+    color: #FFF;
+    font: 1.2em 'Poppins', sans-serif;
+    line-height: 2em;
+}
+
+#pag-modalidades {
+    background-color: #EEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    width: 24%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #CCC;
+    transition: 1s;
+}
+
+.card:hover {
+    box-shadow: 10px 10px 10px #888;
+}
+
+.img-card {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.texto-card {
+    padding: 20px;
+}
+
+.texto-card p {
+    font-size: 1em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+#pag-treinos {
+    background-color: #FFF;
+}
+
+#pag-treinos p{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#container-treinos{
+    display: flex;
+}
+
+.img-contatos{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+
+.coluna-treinos{
+    padding: 40px;
+}
+
+#container-imgs{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: #000;
+}
+
+video{
+    width: 400px;
+}
+
+footer {
+    background-color: #212121;
+    padding: 20px;   
+}
+footer p{
+    text-align: center;
+    color: #FFF;
+}
+footer a{    
+    color: #FFF;
+}
+
+footer a:hover{
+    color: #3F51B5;
+}
+/*Pag Agendamentos*/
+
+
+#pag-agendamentos {
+    background-color: #F0F0F0;
+}
+
+#pag-agendamentos p {
+    text-align: center;
+}
+
+form {
+    background-color: #FFF;
+    width: 450px;
+    margin: 20px auto; /*margin auto faz ele ir pro meio pq ele nao pra onde ir*/
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #CCC;
+}
+
+input, select, fieldset, textarea{
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box; /*tamanho da caixa limitado a largura da caixa*/
+    font: 1.1em 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #757575;
+    margin-bottom: 10px;
+    border: 1px solid #CCC;
+}
+
+label, legend{
+    font: 1.3em 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #212121;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    width: 30px;
+    margin-left: 50px;
+}
+
+.itens-dha{
+    width: 48%;
+}
+
+input[type="submit"], input[type="reset"]{
+    border: none;
+    background-color: #8BC34A;
+    color: #FFF;
+    border-radius: 10px;
+    width: 45%;
+}
+
+input[type="reset"]{
+    background-color: #F47E7E;
+}
+

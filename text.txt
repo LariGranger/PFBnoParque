@@ -1,0 +1,45 @@
+SIZE: padrão 3 - aceita valores de 1 a 7
+COR CINZA: mesmo num para R G e B - EX. DDDDDD / 777777 - meio termo de todas as cores - RGB(120, 120, 120);
+SITE TOPTAL - imagens para usar como fundo
+BACKGROUND - colocar imagens de fundo
+COMENTARIOS HTML - <!--coments-->
+TAG <marquee></marquee> - o texto se move pela tela
+TEXTO ALTERNATIVO - ajuda na busca do google
+
+LINK (A)
+
+LINK - NAO CLICADO - AZUL
+ALINK - QUANDO ESTA ATIVO (CLICANDO) - VERMELHO
+VLINK - DEPOIS DE VISITADO - ROXO
+
+LISTA
+
+OL - 1,A,a,i,i
+UL - circle, square
+LI - itens
+
+<ol type="a"></ol>
+<ul type="square">
+
+VIDEOS/AUDIOS
+posso colocar vários videos com SOURCE (sendo de vários formatos)
+ <source src="" type="">
+ muted - autoexplicativo
+ preload="" -- auto (o video começa carregar quando a página é aberta)
+ loop - 
+ poster - colocar capa
+
+
+ RGBA - COM TRANSPARENCIA
+ 1-OPACA
+ 0.5-MEIO TRANSPARENTE
+ 0-TOTAL TRANSPARENTE
+
+
+ font-size: 
+ 1em - tamanho original da fonte no navegador
+
+ margin -- distancia dos outros elementos
+ padding -- distancia interna / 
+
+

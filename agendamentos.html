@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>PFB no parque</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img id="img-topo" src="img/banner.png"
+            alt="Banner do site PFB no parque no Parque com a logo ao centro e uma foto do parque da cidade ao fundo" />
+    </header>
+
+    <nav>
+        <a class="menu" href="index.html">HOME</a>
+        <a class="menu" href="index.html">BENEFÍCIOS</a>
+        <a class="menu" href="index.html">MODALIDADES</a>
+        <a class="menu" href="index.html">TREINOS</a>
+        <a class="menu" href="index.html">AGENDAMENTO</a>
+    </nav>
+
+    <section id="pag-agendamentos">
+        <h1>Agendamentos</h1>
+
+        <p>Agende uma aula experimental <strong>grátis</strong>!</p>
+
+        <form name="" method="" action="">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" name="nome" placeholder="Nome Completo" required autofocus>
+
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" name="email" placeholder="user@email.com">
+
+            <label for="senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="somente números">
+
+            <label for="celular">Celular:</label>
+            <input id="celular" type="tel" name="celular" placeholder="(99)99999-9999"
+                pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+            <div class="container">
+
+                <div class="itens-dha">
+                    <label for="data_hora">Data/Hora:</label>
+                    <input id="data_hora" type="datetime-local" name="data_hora">
+                </div>
+                <div class="itens-dha">
+                    <label for="aulas">Aulas</label>
+                    <input id="aulas" type="number" name="aulas" min="1" max="10" step="1">
+                </div>
+            </div>
+
+            <label for="nivel">Nivel:</label>
+            <select name="nivel" id="nivel">
+                <option value="">Select</option>
+                <option value="iniciante">Iniciante</option>
+                <option value="basico">Básico</option>
+                <option value="intermediario">Intermediário</option>
+                <option value="avancado">Avançado</option>
+            </select>
+
+            <fieldset>
+                <legend>Gênero:</legend>
+                <input type="radio" id="masc" name="genero" value="masc"><label for="masc">Masculino</label><br />
+                <input type="radio" id="fem" name="genero" value="fem"><label for="fem">Feminino</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Atividades:</legend>
+                <input type="checkbox" id="musc" name="atividade" value="musculacao"><label
+                    for="musc">Musculação</label><br />
+                <input type="checkbox" id="pilates" name="atividade" value="pilates"><label
+                    for="pilates">Pilates</label><br />
+                <input type="checkbox" id="yoga"><label for="yoga" name="atividade" value="yoga">Yoga</label><br />
+                <input type="checkbox" id="corrida" name="atividade" value="corrida"><label
+                    for="corrida">Corrida</label><br />
+            </fieldset>
+
+            <label for="msg">Mensagem:</label>
+
+            <textarea name="msg" id="msg"></textarea>
+
+            <div class="container">
+
+                <input type="submit" name="btn_agendar" value="AGENDAR">
+                <input type="reset" name="btn_cancelar" value="CANCELAR">
+            </div>
+        </form>
+
+    </section>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://instagram.com/tiiagosegato" target="_blank">Tiago Segato</a> - 2023</p>
+    </footer>
+
+</body>
+
+</html>
